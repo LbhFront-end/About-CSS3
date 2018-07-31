@@ -69,5 +69,30 @@
 
 ------
 
+### 伪元素
 
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo04.html)
+
+CSS 伪元素用于向某些选择设置特殊效果
+
+| 伪元素        | 作用                           |
+| ------------- | :----------------------------- |
+| :first-letter | 将特殊的样式添加到文本的首字母 |
+| :first-line   | 将特殊的样式添加到文本的首行   |
+| :before       | 在某些元素之前插入某些内容     |
+| :after        | 在某些元素之后插入某些内容     |
+
+------
+
+### border-radius
+
+#### （1）半圆+标准写法
+
+左上角开始，顺时针
+
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo05.html)
+
+![半圆](https://github.com/LbhFront-end/About-CSS3/blob/master/code/img/circle.png)
+
+### （2）三角形+对话框
 

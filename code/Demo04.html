@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>伪元素</title>
+	<style>
+		.deom{
+			width: 300px;
+			margin: 50px auto;
+			border: 1px solid #ccc;
+			padding: 10px;
+		}
+		/*伪元素建议写两个冒号，看起来更专业*/
+		.demo::first-letter{
+			font-weight: 700;
+			font-size: 40px;
+			float: left;
+		}
+		.demo::first-line{
+			color:#f66;
+		}	
+		.demo1	{
+			width: 300px;
+			height: 300px;
+
+			border: 1px solid #ccc;
+			margin: 10px auto;
+			padding: 10px;
+			text-align: center;
+
+		}
+		.demo1::before{
+			content:'前';
+			background: url('./img/1.png') no-repeat center;
+			background-size: 50px 50px;
+			display: block;
+			width: 50px;
+			height: 50px;
+		}
+		.demo1::after{
+			content:'后';
+			display: block;
+			background: url('./img/1.png') no-repeat center;
+			background-size: 100px 100px;
+			width: 100px;
+			height: 100px;
+		}		
+	</style>
+</head>
+<body>
+	<div class="demo">
+		伪元素： :before 和 :after可以做的东西
+		是相当惊人的。对于页面上的每一个元素，拥有
+		两个更灵活的、而且可以完成其他HTML元素都能
+		完成的东西的元素。它们使得一堆有趣的设计成
+		为可能，而且不会对你的语义标签产生负面影响
+	</div>
+	<div class="demo1">
+		哈哈哈哈
+	</div>
+</body>
+</html>
