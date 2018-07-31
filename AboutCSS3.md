@@ -8,7 +8,7 @@
    (2).  [border](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#2border)  
    (3).  [菱形和平行四边形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#3菱形和平行四边形)    
    (4).  [五边形和六边形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#4五边形和六边形)   
-   (5).  [五角星和六角星](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#5五角星和六角星)
+   (5).  [五角星和六角星](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#5五角星和六角星)  
    (6).  [心形和蛋边形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#6心形和蛋边形)   
    (7).  [太极阴阳图](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#7太极阴阳图)
 3. [CSS3色彩](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-色彩)
