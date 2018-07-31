@@ -86,13 +86,80 @@ CSS 伪元素用于向某些选择设置特殊效果
 
 ### border-radius
 
-#### （1）半圆+标准写法
+#### 半圆+标准写法
 
 左上角开始，顺时针
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo05.html)
 
-![半圆](https://github.com/LbhFront-end/About-CSS3/blob/master/code/img/circle.png)
+![半圆](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/circle.png)
 
-### （2）三角形+对话框
+
+
+```
+		.demo5{
+			width: 100px;
+			height: 200px;
+			border: 1px solid #ccc;
+			background: #f66;
+			margin: 50px auto;
+			border-radius: 0px 100px 100px 0px;									
+		}
+```
+
+
+
+### border
+
+#### 三角形+对话框
+
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo06.html)
+
+![三角形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/triangle.png)
+
+```
+		.triangle{
+			border-top:100px solid #ccc;
+			border-bottom:100px solid transparent;
+			border-right:100px solid transparent;
+			border-left:100px solid transparent;	
+			width: 0;
+			height: 0;								
+			margin: 50px auto;
+		}
+
+```
+
+![对话框](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/triangle-dialog.png)
+
+```
+<style>
+.triangle-dialog{
+			background: #6a6;
+			margin: 50px auto;
+			width: 300px;
+			height: 25px;
+			line-height: 25px;
+			padding: 10px;
+			border-radius: 6px;
+			color:#fff;
+			position: relative;			
+		}
+		.triangle-dialog::before{
+			content:'';
+			border-left: 0px solid #6a6;
+			border-top: 10px solid transparent;	
+			border-right: 10px solid #6a6;
+			border-bottom: 10px solid transparent;	
+			position: absolute;
+			left: -10px;	
+			top: 10px;			
+		}
+</style>
+
+html
+<div class="triangle-dialog">
+	你好！我是三角形对话框
+</div>
+```
 

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三角形对话框</title>
+	<style>
+		.triangle-dialog{
+			background: #6a6;
+			margin: 50px auto;
+			width: 300px;
+			height: 25px;
+			line-height: 25px;
+			padding: 10px;
+			border-radius: 6px;
+			color:#fff;
+			position: relative;			
+		}
+		.triangle-dialog::before{
+			content:'';
+			border-left: 0px solid #6a6;
+			border-top: 10px solid transparent;	
+			border-right: 10px solid #6a6;
+			border-bottom: 10px solid transparent;	
+			position: absolute;
+			left: -10px;	
+			top: 10px;			
+		}
+	</style>
+</head>
+<body>
+	<div class="triangle-dialog">
+		你好！我是三角形对话框
+	</div>
+</body>
+</html>
