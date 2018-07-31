@@ -7,8 +7,8 @@
    (1)  [border-radius](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#1border-radius)  
    (2)  [border](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#2border)  
    (3)  [菱形和平行四边形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#3菱形和平行四边形)    
-   (4)  [五边形和六边形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#4五边形和六边形)   
-   (5)  [五角星和六角星](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#5五角星和六角星)  
+   (4)  [五角星和六角星](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#4五角星和六角星)   
+   (5)  [五边形和六边形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#5五边形和六边形)  
    (6)  [心形和蛋边形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#6心形和蛋边形)   
    (7)  [太极阴阳图](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#7太极阴阳图)
 3. [CSS3色彩](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-色彩)
@@ -223,9 +223,68 @@ html
 
 
 
-### （4）五边形和六边形
+### （4）五角星和六角星
 
-### （5）五角星和六角星
+实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo09.html)
+
+![平行四边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/mogen-david.png)
+
+```
+
+<style>
+    #star{
+        position: relative;
+        width: 0;
+        height: 0;
+        border-bottom: 70px solid #f66;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        margin: 150px auto;
+        -webkit-transform: rotate(35deg);
+        -ms-transform: rotate(35deg);
+        -o-transform: rotate(35deg);
+        transform: rotate(35deg);
+    }
+    #star::before{
+        position: absolute;
+        top: -50px;
+        left: -69px;
+        content: '';
+        width: 0;
+        height: 0;
+        border-bottom: 80px solid #f66;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        -webkit-transform: rotate(-35deg);
+        -ms-transform: rotate(-35deg);
+        -o-transform: rotate(-35deg);
+        transform: rotate(-35deg);
+    }
+    #star::after{
+        position: absolute;
+        content: '';
+        top: 4px;
+        left: -105px;
+        width: 0;
+        height: 0;
+        border-bottom: 70px solid #f66;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        -webkit-transform: rotate(-70deg);
+        -ms-transform: rotate(-70deg);
+        -o-transform: rotate(-70deg);
+        transform: rotate(-70deg);
+    }		
+</style>
+
+
+<div id="star"></div>
+
+```
+
+
+
+### （5）五边形和六边形
 
 ### （6）心形和蛋边形
 

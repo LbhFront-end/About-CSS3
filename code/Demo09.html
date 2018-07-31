@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Star</title>
+	<style>
+		#star{
+			position: relative;
+			width: 0;
+			height: 0;
+			border-bottom: 70px solid #f66;
+			border-left: 100px solid transparent;
+			border-right: 100px solid transparent;
+			margin: 150px auto;
+			-webkit-transform: rotate(35deg);
+			-ms-transform: rotate(35deg);
+			-o-transform: rotate(35deg);
+			transform: rotate(35deg);
+		}
+		#star::before{
+			position: absolute;
+			top: -50px;
+			left: -69px;
+			content: '';
+			width: 0;
+			height: 0;
+			border-bottom: 80px solid #f66;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			-webkit-transform: rotate(-35deg);
+			-ms-transform: rotate(-35deg);
+			-o-transform: rotate(-35deg);
+			transform: rotate(-35deg);
+		}
+		#star::after{
+			position: absolute;
+			content: '';
+			top: 4px;
+			left: -105px;
+			width: 0;
+			height: 0;
+			border-bottom: 70px solid #f66;
+			border-left: 100px solid transparent;
+			border-right: 100px solid transparent;
+			-webkit-transform: rotate(-70deg);
+			-ms-transform: rotate(-70deg);
+			-o-transform: rotate(-70deg);
+			transform: rotate(-70deg);
+		}	
+		#mogen-david{
+			position: relative;
+			width: 0;
+			height: 0;
+			border-bottom: 100px solid #f66;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			margin: 100px auto;
+		}	
+		#mogen-david::before{
+			position: absolute;
+			content: '';
+			top: 30px;
+			left: -50px;
+			width: 0;
+			height: 0;
+			border-top: 100px solid #f66;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+		}				
+	</style>
+</head>
+<body>
+	<div id="star"></div>
+	<div id="mogen-david"></div>	
+</body>
+</html>
