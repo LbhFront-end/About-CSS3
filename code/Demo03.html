@@ -61,12 +61,34 @@
 		/*从n以后开始			*/
 		.demo li:nth-child(n+5){
 			background-color: #0f0;
-		}		
+		}	
+ 		/*选择某个元素的一个或者多个特定的子元素，从这个元素的最后一个子元素开始算*/
+		.demo li:nth-last-child(3){
+			/*倒数第三个*/
+			background-color: #0f0;
+		}
+		/*选择指定的元素*/
+		.demo li:nth-of-type(3){
+			/*type限制为li中的，而不会被额外的标签影响*/
+			background-color: #ff9;
+		} 
+		/*选择指定的元素，从元素的最后一个开始计算*/
+		.demo li:nth-last-of-type(){} 
+		/*选择一个上级元素下的第一个同类子元素*/
+		.demo li:first-of-type{}
+		/*选择一个上级元素下的最后一个同类子元素*/
+		.demo li:last-of-type{}  
+		/*选择的是它父元素唯一一个子元素*/
+		.demo li:only-of-type{} 
+		/*选择的元素里面没有内容*/
+		.demo li:empty{} 
+	
 	</style>
 </head>
 <body>
 	<div class="demo clearfix">
 		<ul class="clearfix">
+			<p>0</p>
 			<li><a href="">1</a></li>
 			<li><a href="">2</a></li>
 			<li><a href="">3</a></li>
