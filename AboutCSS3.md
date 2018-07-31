@@ -118,14 +118,14 @@ CSS 伪元素用于向某些选择设置特殊效果
 
 
 ```
-		.demo5{
-			width: 100px;
-			height: 200px;
-			border: 1px solid #ccc;
-			background: #f66;
-			margin: 50px auto;
-			border-radius: 0px 100px 100px 0px;									
-		}
+.demo5{
+    width: 100px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background: #f66;
+    margin: 50px auto;
+    border-radius: 0px 100px 100px 0px;									
+}
 ```
 
 
@@ -139,15 +139,15 @@ CSS 伪元素用于向某些选择设置特殊效果
 ![三角形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/triangle.png)
 
 ```
-		.triangle{
-			border-top:100px solid #ccc;
-			border-bottom:100px solid transparent;
-			border-right:100px solid transparent;
-			border-left:100px solid transparent;	
-			width: 0;
-			height: 0;								
-			margin: 50px auto;
-		}
+.triangle{
+    border-top:100px solid #ccc;
+    border-bottom:100px solid transparent;
+    border-right:100px solid transparent;
+    border-left:100px solid transparent;	
+    width: 0;
+    height: 0;								
+    margin: 50px auto;
+}
 
 ```
 
@@ -156,26 +156,26 @@ CSS 伪元素用于向某些选择设置特殊效果
 ```
 <style>
 .triangle-dialog{
-			background: #6a6;
-			margin: 50px auto;
-			width: 300px;
-			height: 25px;
-			line-height: 25px;
-			padding: 10px;
-			border-radius: 6px;
-			color:#fff;
-			position: relative;			
-		}
-		.triangle-dialog::before{
-			content:'';
-			border-left: 0px solid #6a6;
-			border-top: 10px solid transparent;	
-			border-right: 10px solid #6a6;
-			border-bottom: 10px solid transparent;	
-			position: absolute;
-			left: -10px;	
-			top: 10px;			
-		}
+    background: #6a6;
+    margin: 50px auto;
+    width: 300px;
+    height: 25px;
+    line-height: 25px;
+    padding: 10px;
+    border-radius: 6px;
+    color:#fff;
+    position: relative;			
+}
+.triangle-dialog::before{
+    content:'';
+    border-left: 0px solid #6a6;
+    border-top: 10px solid transparent;	
+    border-right: 10px solid #6a6;
+    border-bottom: 10px solid transparent;	
+    position: absolute;
+    left: -10px;	
+    top: 10px;			
+}
 </style>
 
 html
@@ -191,16 +191,16 @@ html
 ![菱形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/diamond.png)
 
 ```
-		.diamond{
-			width: 200px;
-			height: 200px;
-			background: #6a6;
-			margin: 100px auto;
-			-webkit-transform: rotate(-45deg);
-			-ms-transform: rotate(-45deg);
-			-o-transform: rotate(-45deg);
-			transform: rotate(-45deg);
-			}
+.diamond {
+    width: 200px;
+    height: 200px;
+    background: #6a6;
+    margin: 100px auto;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
 ```
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo08.html)
@@ -208,17 +208,17 @@ html
 ![平行四边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/parallel.png)
 
 ```
-		.parallel{
-			width: 200px;
-			height: 200px;
-			background: #6a6;
-			margin: 100px auto;
-			/*skew 倾斜（x, y）*/
-			-webkit-transform: skew(20deg);
-			-ms-transform: skew(20deg);
-			-o-transform: skew(20deg);
-			transform: skew(20deg);
-		}
+.parallel{
+    width: 200px;
+    height: 200px;
+    background: #6a6;
+    margin: 100px auto;
+    /*skew 倾斜（x, y）*/
+    -webkit-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+}
 ```
 
 
