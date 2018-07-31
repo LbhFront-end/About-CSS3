@@ -186,6 +186,43 @@ html
 
 ### （3）菱形和平行四边形
 
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo08.html)
+
+![菱形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/diamond.png)
+
+```
+		.diamond{
+			width: 200px;
+			height: 200px;
+			background: #6a6;
+			margin: 100px auto;
+			-webkit-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			-o-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+			}
+```
+
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo08.html)
+
+![平行四边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/parallel.png)
+
+```
+		.parallel{
+			width: 200px;
+			height: 200px;
+			background: #6a6;
+			margin: 100px auto;
+			/*skew 倾斜（x, y）*/
+			-webkit-transform: skew(20deg);
+			-ms-transform: skew(20deg);
+			-o-transform: skew(20deg);
+			transform: skew(20deg);
+		}
+```
+
+
+
 ### （4）五边形和六边形
 
 ### （5）五角星和六角星
