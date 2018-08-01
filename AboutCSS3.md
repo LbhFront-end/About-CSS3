@@ -26,7 +26,7 @@
 
 ## CSS3 介绍
 
-[开始实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS介绍/css介绍.html)
+[开始实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3介绍/css介绍.html)
 
 ### 新特征简介
 
@@ -50,7 +50,7 @@
 
 #### （1）动态伪类选择器
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS介绍/动态伪类选择器.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3介绍/动态伪类选择器.html)
 
 :link 设置a对象在未被访问前的样式表属性 
 
@@ -71,7 +71,7 @@
 
 #### （2）结构伪类选择器
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS介绍/结构伪类选择器.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3介绍/结构伪类选择器.html)
 
 :first-child 选择某个元素第一个子元素
 
@@ -97,7 +97,7 @@
 
 ### 伪元素
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS介绍/伪元素.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3介绍/伪元素.html)
 
 CSS 伪元素用于向某些选择设置特殊效果
 
@@ -118,7 +118,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 
 左上角开始，顺时针
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/border-radius.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/border-radius.html)
 
 ![半圆](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/circle.png)
 
@@ -141,7 +141,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 
 #### 三角形+对话框
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/三角形.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/三角形.html)
 
 ![三角形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/triangle.png)
 
@@ -157,7 +157,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 }
 
 ```
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/三角形对话框.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/三角形对话框.html)
 ![对话框](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/triangle-dialog.png)
 
 ```
@@ -193,7 +193,7 @@ html
 
 ### （3）菱形和平行四边形
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/平行四边形与菱形.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/平行四边形与菱形.html)
 
 ![菱形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/diamond.png)
 
@@ -230,7 +230,7 @@ html
 
 ### （4）五角星和六角星
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/星形.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/星形.html)
 
 ![五角星](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/star.png)
 
@@ -318,7 +318,7 @@ html
 
 ### （5）五边形和六边形
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/五边形与六边形.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/五边形与六边形.html)
 
 ![五边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/pentagon.png)
 
@@ -381,7 +381,7 @@ html
 
 ### （6）心形和蛋边形
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/心形与蛋形.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/心形与蛋形.html)
 
 ![心形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/hearts.png)
 
@@ -471,7 +471,7 @@ html
 
 ### （7）太极阴阳图
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/太极阴阳图.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/太极阴阳图.html)
 
 ![太极阴阳图](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/taiji.png)
 
@@ -517,7 +517,7 @@ body{
 
 ### 透明背景图层
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS色彩/透明背景图层.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/透明背景图层.html)
 
 opacity : value
 
@@ -558,19 +558,151 @@ opacity : value
 | A    | Alpha 透明度 ( 0~1 )                                         |
 
 ### 颜色模式2
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS色彩/颜色模式2.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/颜色模式2.html)
+
+```
+#main{
+    margin: 100px auto;
+    width: 800px;
+    clear:both;
+}
+#main li{
+    list-style: none;
+    width: 240px;
+    padding: 1px;
+    border:1px solid rgba(255,0,0,0);
+    cursor: pointer;
+}
+#main li:hover{
+    border:1px solid rgba(255,0,0,0.8);
+}
+#main li:hover .img img{
+
+    opacity: 0.7;
+}
+.img img {
+    width: 240px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.goods_title{
+    margin: 10px;
+    height: 50px;
+    color:#666;
+    overflow: hidden;
+}
+.price{
+    margin: 10px;
+    color:#f00;
+}
+```
+
+
 
 ### 线性渐变
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS色彩/线性渐变.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/线性渐变.html)
+
+语法：linear-gradient( [ \<point> || \<angle> ,] ? \<stop> , \<stop> [,\<stop>] * )
+
+| 元素          | 描述                                                         |
+| ------------- | ------------------------------------------------------------ |
+| \<angle>      | 用角度值指定渐变的方向（或角度）。to left (270deg) \| to right (90deg) \| to top(0deg) \| to bottom(180deg) 分别代表渐变方向：右 -> 左，左 -> 右，下 -> 上，上 -> 下 |
+| \<color-stop> | 用于指定渐变的起止颜色                                       |
+| \<length>     | 用长度值指定起止色位置。不允许负值                           |
+| \<percentage> | 用百分比指定起止色位置                                       |
+| \<color>      | 指定颜色                                                     |
+
+```
+.demo{
+    margin: 50px auto;
+    width: 260px;
+    height: 200px;
+    border:1px solid black;
+    background-image: linear-gradient(to left,orange 100px, green 160px,red 260px);
+    /*或者*/
+    background-image: linear-gradient(270deg,orange 100px, green 160px,red 260px);
+    background-image: linear-gradient(to left,orange 20%, green 40%x,red 100%);
+  	/*加前缀*/
+	background-image: -webkit-linear-gradient(70deg,orange 100px, green 160px,red 260px);
+	background-image:-o-linear-gradient(70deg,orange 100px, green 160px,red 260px);
+	background-image:linear-gradient(70deg,orange 100px, green 160px,red 260px);    
+    
+}
+```
+
+
 
 ### 径向渐变
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS色彩/径向渐变.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/径向渐变.html)
+
+语法：radial-gradient( [\<bg-position> || \<angle>, ] ? [ \<shape> || \<size> ,] ? \<color-stop> , \<color-stop>[, \<color-stop>]* )
+
+```
+/*circle 圆*/
+.circle{
+    background-image: radial-gradient(circle at right,orange,green);
+}
+/*ellipse 椭圆*/
+.ellipse{
+    background-image: radial-gradient(ellipse at right,orange,green);
+}		
+.circle{
+    background-image: radial-gradient(circle at right top,orange,green);
+}
+.ellipse{
+    background-image: radial-gradient(ellipse at right top,orange,green);
+}	
+/*x*/
+.circle{
+    background-image: radial-gradient(20px circle at center,orange,green);
+}
+/*x, y*/
+.ellipse{
+    background-image: radial-gradient(20px 30px ellipse at center,orange,green);
+}
+```
+
+
 
 ### 重复性渐变
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS色彩/重复性渐变.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/重复性渐变.html)
+
+```
+.linear{
+    width: 300px;	
+    height: 300px;	
+    margin: 20px auto;
+    border:1px solid #ccc;	
+    background-image: repeating-linear-gradient(orange 0px, green 40px,red 80px);
+}
+.circle{
+    width: 300px;	
+    height: 300px;	
+    margin: 20px auto;
+    border-radius: 50%;
+    border:1px solid #ccc;	
+    background-image: repeating-radial-gradient(orange 0px, green 30px,red 40px);
+}
+```
+
+
 
 ### 盒子阴影效果
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS色彩/盒子阴影效果.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/盒子阴影效果.html)
+
+语法：box-shadow : h-shadow v-shadow blur spread color inset;
+
+| 元素     | 描述                             | 必需 |
+| -------- | -------------------------------- | ---- |
+| h-shadow | 水平阴影的位置。允许负值         | 是   |
+| v-shadow | 垂直阴影的位置。允许负值         | 是   |
+| blur     | 模糊距离                         | 否   |
+| spread   | 阴影的尺寸                       | 否   |
+| color    | 阴影的颜色。                     | 否   |
+| inset    | 将外部阴影（outset）改为内部阴影 | 否   |
+
+
 
 ## CSS3 过渡
 
