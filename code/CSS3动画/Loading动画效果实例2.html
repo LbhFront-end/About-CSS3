@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Loading动画效果实例2</title>
+	<style>
+		.spinner{
+			width: 60px;
+			height: 60px;
+			position: relative;
+			margin: 100px auto;
+		}
+		.spinner > div{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			background: #67cf22;
+			opacity: 0.6;
+			animation: myLoading 2s infinite ease-in-out;
+		}
+		.spinner > div:nth-child(2){
+			-webkit-animation-delay: -1s;
+			-o-animation-delay: -1s;
+			animation-delay: -1s;
+		}
+		@keyframes myLoading{
+			0% ,100%{ transform: scale(0.0); }
+			50% { transform: scale(1); }
+		}
+	</style>
+</head>
+<body>
+	<div class="spinner">
+		<div></div>
+		<div></div>
+	</div>
+</body>
+</html>

@@ -882,8 +882,54 @@ img{
 ### 动画中的@keyframes关键帧讲解
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/动画中的@keyframes关键帧讲解.html)
 
+```
+.rect{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: fixed;
+    animation: myMove 2s infinite;
+}
+@keyframes myMove{
+    0%{ top:0; left:20%;background:red; }
+    25%{ top:0; left:80%; background:blue;}
+    50%{ top:80%; left:80%; background:green;}
+    75%{ top:80%; left:20%;background:black; }
+    100%{ top:0; left:20%; background:red;}
+}
+```
+
 ### 动画animation符合属性讲解
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/动画animation符合属性讲解.html)
+
+```
+/*指定动画名字*/
+-webkit-animation-name: myMove;
+-o-animation-name: myMove;
+animation-name: myMove;
+/*动画延续时间*/
+-webkit-animation-duration: 1s;
+-o-animation-duration: 1s;
+animation-duration: 1s;
+/*动画运动函数*/
+-webkit-animation-timing-function: ease;
+-o-animation-timing-function: ease;
+animation-timing-function: ease;
+/*动画延迟时间*/
+-webkit-animation-delay: 1s;
+-o-animation-delay: 1s;
+animation-delay: 1s;
+/*动画循环次数(infinite 无限循环)*/
+-webkit-animation-iteration-count: 3;
+-o-animation-iteration-count: 3;
+animation-iteration-count: 3;
+/*动画顺序 normal|alternate*/
+-webkit-animation-direction: alternate;
+-o-animation-direction: alternate;
+animation-direction: alternate;
+```
+
+
 
 #### 动画综合实例制作-loading加载动画制作
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/动画综合实例制作-loading加载动画制作.html)

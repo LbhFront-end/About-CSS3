@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>动画中的@keyframes关键帧讲解</title>
+	<style>
+		.rect{
+			width: 100px;
+			height: 100px;
+			background: red;
+			position: fixed;
+			/*指定动画名字*/
+			-webkit-animation-name: myMove;
+			-o-animation-name: myMove;
+			animation-name: myMove;
+			/*动画延续时间*/
+			-webkit-animation-duration: 3s;
+			-o-animation-duration: 3s;
+			animation-duration: 3s;
+			/*动画运动函数*/
+			-webkit-animation-timing-function: ease;
+			-o-animation-timing-function: ease;
+			animation-timing-function: ease;
+			/*动画延迟时间*/
+			-webkit-animation-delay: 1s;
+			-o-animation-delay: 1s;
+			animation-delay: 1s;
+			/*动画循环次数*/
+			-webkit-animation-iteration-count: infinite;
+			-o-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+			/*动画顺序 normal|alternate*/
+			-webkit-animation-direction: alternate;
+			-o-animation-direction: alternate;
+			animation-direction: alternate;
+		}
+		@keyframes myMove{
+			0%{ top:0; left:20%;background:red; }
+			25%{ top:0; left:80%; background:blue;}
+			50%{ top:80%; left:80%; background:green;}
+			75%{ top:80%; left:20%;background:black; }
+			100%{ top:0; left:20%; background:red;}
+		}
+	</style>
+</head>
+<body>
+	<div class="rect"></div>
+</body>
+</html>
