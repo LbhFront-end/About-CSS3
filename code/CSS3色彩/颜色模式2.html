@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>颜色模式2-仿天猫产品展示效果</title>
+	<style>
+	body{
+		background: #eee;
+	}
+		#main{
+			margin: 100px auto;
+			width: 800px;
+			clear:both;
+		}
+		#main li{
+			background: #fff;
+			list-style: none;
+			width: 240px;
+			padding: 1px;
+			border:1px solid rgba(255,0,0,0);
+			cursor: pointer;
+		}
+		#main li:hover{
+			border:1px solid rgba(255,0,0,0.8);
+		}
+		#main li:hover .img img{
+
+			opacity: 0.7;
+		}
+		.img img {
+			width: 240px;
+			-webkit-transition: all .5s;
+			-o-transition: all .5s;
+			transition: all .5s;
+		}
+		.goods_title{
+			margin: 10px;
+			height: 50px;
+			color:#666;
+			overflow: hidden;
+		}
+		.price{
+			margin: 10px;
+			color:#f00;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<ul>
+			<li>
+				<div class="img">
+					<img src="../img/phone.jpg" alt="">
+				</div>
+				<div class="goods_title">
+					苹果X 参数：XXXXXhahahahahahahahahahahahhahahhah
+				</div>
+				<div class="price">
+					$599
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

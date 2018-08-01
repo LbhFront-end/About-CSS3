@@ -11,7 +11,14 @@
    (5)  [五边形和六边形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#5五边形和六边形)  
    (6)  [心形和蛋边形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#6心形和蛋边形)   
    (7)  [太极阴阳图](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#7太极阴阳图)
-3. [CSS3色彩](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-色彩)
+3. [CSS3色彩](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-色彩)  
+   (1)  [透明背景图层](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#透明背景图层)  
+   (2)  [颜色模式1](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#颜色模式1)  
+   (3)  [颜色模式2](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#颜色模式2)    
+   (4)  [线性渐变](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#线性渐变)   
+   (5)  [径向渐变](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#径向渐变)  
+   (6)  [重复性渐变](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#重复性渐变)   
+   (7)  [盒子阴影效果](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#盒子阴影效果)
 4. [CSS3过渡](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-过渡)
 5. [CSS3动画](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-动画)
 6. [CSS3文字排版](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-文字排版)
@@ -504,9 +511,66 @@ body{
 }	
 ```
 
-
+------
 
 ## CSS3 色彩
+
+### 透明背景图层
+
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS色彩/透明背景图层.html)
+
+opacity : value
+
+```
+.show{
+    margin: 50px auto;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.5;
+    background: #fff;
+    border-radius: 40px;
+    -webkit-box-shadow: 3px 3px 5px #888;
+    box-shadow: 3px 3px 5px #888;
+}
+```
+
+
+
+### 颜色模式1
+（1）rgba(R, G, B, A)
+
+| 字母 | 描述                 |
+| ---- | -------------------- |
+| R    | 正整数 \| 百分数     |
+| G    | 正整数 \| 百分数     |
+| B    | 正整数 \| 百分数     |
+| A    | Alpha 透明度 ( 0~1 ) |
+
+（2）hsla(H, S, L, A)
+
+| 字母 | 描述                                                         |
+| ---- | ------------------------------------------------------------ |
+| H    | Hue(色调) ，红色：0 \| 360，绿色：120，蓝色：240。 取值范围：0 ~ 360 |
+| S    | Saturation(饱和度)。取值范围：0.0% ~ 100.0%                  |
+| L    | Lightness(亮度)。取值范围：0.0% ~ 100.0%                     |
+| A    | Alpha 透明度 ( 0~1 )                                         |
+
+### 颜色模式2
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS色彩/颜色模式2.html)
+
+### 线性渐变
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS色彩/线性渐变.html)
+
+### 径向渐变
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS色彩/径向渐变.html)
+
+### 重复性渐变
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS色彩/重复性渐变.html)
+
+### 盒子阴影效果
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS色彩/盒子阴影效果.html)
 
 ## CSS3 过渡
 

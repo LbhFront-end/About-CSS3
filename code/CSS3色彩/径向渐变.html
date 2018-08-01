@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>径向渐变</title>
+	<style>
+	.demo{
+		width: 100px;	
+		height: 100px;	
+		border:1px solid #000;
+		border-radius: 50%;
+		margin: 10px;	
+		float: left;
+	}	
+	/*circle 圆*/
+	.circle{
+		background-image: radial-gradient(circle at right,orange,green);
+	}
+	/*ellipse 椭圆*/
+	.ellipse{
+		background-image: radial-gradient(ellipse at right,orange,green);
+	}		
+	.circle{
+		background-image: radial-gradient(circle at right top,orange,green);
+	}
+	.ellipse{
+		background-image: radial-gradient(ellipse at right top,orange,green);
+	}	
+	/*x*/
+	.circle{
+		background-image: radial-gradient(20px circle at center,orange,green);
+	}
+	/*x, y*/
+	.ellipse{
+		background-image: radial-gradient(20px 30px ellipse at center,orange,green);
+	}
+	</style>
+</head>
+<body>
+		<div class="demo circle"></div>
+		<div class="demo ellipse"></div>
+</body>
+</html>
