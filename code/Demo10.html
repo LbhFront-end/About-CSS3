@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>五边形与六边形</title>
+	<style>
+		.pentagon{
+			position: relative;
+			margin: 100px auto;
+			width: 54px;
+			height: 0;
+			border-top: 50px solid #f66;
+			border-left: 18px solid transparent;
+			border-right: 18px solid transparent;
+		}
+		.pentagon::after{
+			content: '';
+			position: absolute;
+			top: -85px;
+			left: -17px;
+			width: 0;
+			height: 0;
+			border-bottom: 35px solid #f66;
+			border-left: 45px solid transparent;
+			border-right: 45px solid transparent;
+		}
+		.demo{
+			margin: 50px auto;
+			width: 50px;
+			height: 50px;
+			border-top: 50px solid #f00;
+			border-bottom: 50px solid #0f0;
+			border-left: 50px solid #00f;
+			border-right: 50px solid #ff0;
+		}	
+		.hexagon{
+			position: relative;
+			margin: 100px auto;
+			width: 100px;
+			height: 50px;
+			background: #f66;
+		}	
+		.hexagon::before{
+			content: '';
+			top: -25px;
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-bottom: 25px solid #f66;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+		}
+		.hexagon::after{
+			content: '';
+			top: 50px;
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-top: 25px solid #f66;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+		}		
+	</style>
+</head>
+<body>
+	<div class="pentagon">
+		
+	</div>
+	<div class="demo"></div>
+	<div class="hexagon"></div>	
+</body>
+</html>

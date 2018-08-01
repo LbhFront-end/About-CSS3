@@ -286,6 +286,69 @@ html
 
 ### （5）五边形和六边形
 
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo10.html)
+
+![五边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/pentagon.png)
+
+```
+.pentagon{
+    position: relative;
+    margin: 100px auto;
+    width: 54px;
+    height: 0;
+    border-top: 50px solid #f66;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+}
+.pentagon::after{
+    content: '';
+    position: absolute;
+    top: -85px;
+    left: -17px;
+    width: 0;
+    height: 0;
+    border-bottom: 35px solid #f66;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+}
+```
+
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo10.html)
+
+![六边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/hexagon.png)
+
+```
+.hexagon{
+    position: relative;
+    margin: 100px auto;
+    width: 100px;
+    height: 50px;
+    background: #f66;
+}	
+.hexagon::before{
+    content: '';
+    top: -25px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 25px solid #f66;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+.hexagon::after{
+    content: '';
+    top: 50px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 25px solid #f66;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}	
+```
+
+
+
 ### （6）心形和蛋边形
 
 ### （7）太极阴阳图
