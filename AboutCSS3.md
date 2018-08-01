@@ -1,9 +1,9 @@
-1. [CSS介绍](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-介绍)  
+1. [CSS3介绍](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-介绍)  
    (1)  [新特征简介](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#新特征简介)  
    (2)  [查看浏览器份额](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#查看浏览器份额)  
    (3)  [伪类](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#伪类pesudo-classes)   
    (4)  [伪元素](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#伪元素)  
-2. [CSS变形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-变形)  
+2. [CSS3变形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-变形)  
    (1)  [border-radius](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#1border-radius)  
    (2)  [border](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#2border)  
    (3)  [菱形和平行四边形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#3菱形和平行四边形)    
@@ -19,9 +19,20 @@
    (5)  [径向渐变](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#径向渐变)  
    (6)  [重复性渐变](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#重复性渐变)   
    (7)  [盒子阴影效果](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#盒子阴影效果)
-4. [CSS3过渡](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-过渡)
-5. [CSS3动画](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-动画)
-6. [CSS3文字排版](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-文字排版)
+4. [CSS3过渡](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-过渡)  
+   (1)  [制作缓慢变长的方形](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#制作缓慢变长的方形)  
+   (2)  [过渡的timing-function属性详解](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#过渡的timing-function属性详解)  
+   (3)  [仿天猫类别过渡效果制作](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#仿天猫类别过渡效果制作)    
+   (4)  [仿天猫专题过渡效果实例](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#仿天猫专题过渡效果实例) 
+5. [CSS3动画](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-动画)  
+   (1)  [动画中的@keyframes关键帧讲解](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#动画中的@keyframes关键帧讲解)  
+   (2)  [动画animation符合属性讲解](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#动画animation符合属性讲解)  
+   (3)  [动画综合实例制作-loading加载动画制作](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#动画综合实例制作-loading加载动画制作)    
+   (4)  [Loading动画效果实例2](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#loading动画效果实例2) 
+6. [CSS3文字排版](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-文字排版)  
+   (1)  [制作发光字，立体字，苹果字体](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#制作发光字立体字苹果字体)  
+   (2)  [用text-overflow解决文字排版问题](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#用text-overflow解决文字排版问题)  
+   (3)  [新的字体单位rem](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#新的字体单位rem)    
 
 
 ## CSS3 介绍
@@ -702,10 +713,193 @@ opacity : value
 | color    | 阴影的颜色。                     | 否   |
 | inset    | 将外部阴影（outset）改为内部阴影 | 否   |
 
-
+------
 
 ## CSS3 过渡
 
+### 制作缓慢变长的方形
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3过渡/制作缓慢变长的方形.html)
+
+简写语法：transition:  property duration delay timing-function;
+
+| Transition属性             | 描述                         |
+| -------------------------- | ---------------------------- |
+| transition-property        | 过渡属性（默认值为all）      |
+| transition-duration        | 过渡持续时间（默认值为0s）   |
+| transition-timing-function | 过渡函数（默认值为ease函数） |
+| transition-delay           | 过渡延迟时间（默认值为0s）   |
+
+```
+.demo{
+    width: 100px;
+    height: 100px;
+    background: pink;
+    cursor: pointer;
+    /*过渡时间*/
+    -webkit-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+    /*过渡属性*/
+    -webkit-transition-property: height width;
+    -o-transition-property: height width;
+    transition-property:  height width;
+    /*延迟时间*/
+    -webkit-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    transition-delay: 1s;
+    /*过渡函数*/
+    -webkit-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+    /*简写形式*/
+    -webkit-transition: height width 2s 1s ease;
+    -o-transition: height width 2s 1s ease;
+    transition: height width 2s 1s ease;    
+}
+.demo:hover{
+    /*边框跟颜色也可以渐变*/
+    width: 300px;
+    height: 150px;
+    background: #f66;
+    border-radius: 40%;
+}
+```
+
+
+
+
+### 过渡的timing-function属性详解
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3过渡/过渡的timing-function属性详解.html)
+
+| timing-function值 | 描述                                 |
+| ----------------- | ------------------------------------ |
+| ease              | 慢 -> 快 -> 慢                       |
+| linear            | 匀速                                 |
+| ease-in           | 开始慢 结束快                        |
+| ease-out          | 开始快 结束慢                        |
+| ease-in-out       | 慢 -> 快 -> 慢                       |
+| step-start        | 无视过渡时间，延迟时间结束后直接变化 |
+
+### 仿天猫类别过渡效果制作
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3过渡/仿天猫类别过渡效果制作.html)
+
+```
+.main{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 50px auto;
+    font-family: 'Microsoft YaHei';
+    cursor: pointer;
+}
+.main:hover img {
+    right: 10px;
+}
+.m_title{
+    text-align: left;
+    font-size:20px;
+    padding: 20px 10px 10px 10px;
+}
+.m_content{
+    color:#11ccaa;
+    padding: 0 10px 10px 10px;
+}
+.m_img{
+    position: relative;
+    text-align: right;
+}
+.m_img img{
+    position: absolute;
+    width: 100px;
+    top: 0;
+    right: 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;			
+}
+```
+
+
+
+### 仿天猫专题过渡效果实例
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3过渡/仿天猫专题过渡效果实例.html)
+
+```
+.main{
+    margin: 10px auto;
+    width: 230px;
+    border:1px solid #ccc;
+    text-align: center;
+    font-family: 'Microsoft YaHei';
+    cursor: pointer;
+}
+.m_title{
+    font-weight: 700;
+    margin: 5px;
+    font-size: 20px;
+}
+.m_content{
+    color:#666;
+    margin-bottom: 15px;
+}
+.main:hover img{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.m_img{
+    position: relative;
+    padding: 30px;
+}
+.m_img::before{
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 35px;
+    width: 160px;
+    height: 160px;
+    background: #eee;
+    border-radius: 50%;
+    z-index: -1;
+}
+img{
+    width: 120px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+```
+
+------
+
 ## CSS3 动画
 
+### 动画中的@keyframes关键帧讲解
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/动画中的@keyframes关键帧讲解.html)
+
+### 动画animation符合属性讲解
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/动画animation符合属性讲解.html)
+
+#### 动画综合实例制作-loading加载动画制作
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/动画综合实例制作-loading加载动画制作.html)
+
+#### Loading动画效果实例2
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/Loading动画效果实例2.html)
+
+------
+
 ## CSS3 文字排版
+
+### 制作发光字，立体字，苹果字体
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3文字排版/制作发光字立体字苹果字体.html)
+
+### 用text-overflow解决文字排版问题
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3文字排版/用text-overflow解决文字排版问题.html)
+
+### 新的字体单位rem
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3文字排版/新的字体单位rem.html)

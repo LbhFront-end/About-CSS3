@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>仿天猫类别过渡效果制作</title>
+	<style>
+		.main{
+			width: 200px;
+			height: 200px;
+			border: 1px solid #ccc;
+			margin: 50px auto;
+			font-family: 'Microsoft YaHei';
+			cursor: pointer;
+		}
+		.main:hover img {
+			right: 10px;
+		}
+		.m_title{
+			text-align: left;
+			font-size:20px;
+			padding: 20px 10px 10px 10px;
+		}
+		.m_content{
+			color:#11ccaa;
+			padding: 0 10px 10px 10px;
+		}
+		.m_img{
+			position: relative;
+			text-align: right;
+		}
+		.m_img img{
+			position: absolute;
+			width: 100px;
+			top: 0;
+			right: 0;
+			-webkit-transition: all 0.5s;
+			-o-transition: all 0.5s;
+			transition: all 0.5s;			
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="m_title">好手机一口价</div>
+		<div class="m_content">好手机 新年 带回家</div>
+		<div class="m_img">
+			<img src="../img/phone.jpg" alt="新手机">
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset ="UTF-8">
+	<title>	制作缓慢变长的方形</title>
+	<style>	
+	.demo{
+		width: 100px;
+		height: 100px;
+		background: pink;
+		cursor: pointer;
+		/*过渡时间*/
+		-webkit-transition-duration: 2s;
+		-o-transition-duration: 2s;
+		transition-duration: 2s;
+		/*过渡属性*/
+		-webkit-transition-property: height width;
+		-o-transition-property: height width;
+		transition-property:  height width;
+		/*延迟时间*/
+		-webkit-transition-delay: 1s;
+		-o-transition-delay: 1s;
+		transition-delay: 1s;
+		/*过渡函数*/
+		-webkit-transition-timing-function: ease;
+		-o-transition-timing-function: ease;
+		transition-timing-function: ease;
+		/*简写形式*/
+		-webkit-transition: height width 2s 1s ease;
+		-o-transition: height width 2s 1s ease;
+		transition: height width 2s 1s ease;
+	}
+	.demo:hover{
+		/*边框跟颜色也可以渐变*/
+		width: 300px;
+		height: 150px;
+		background: #f66;
+		border-radius: 40%;
+	}
+</style>
+</head>
+<body>
+	<div class="demo">	
+	</div>
+</body>
+</html>

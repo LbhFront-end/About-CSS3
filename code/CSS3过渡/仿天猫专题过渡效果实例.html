@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>仿天猫专题过渡效果实例</title>
+	<style>
+		.main{
+			margin: 10px auto;
+			width: 230px;
+			border:1px solid #ccc;
+			text-align: center;
+			font-family: 'Microsoft YaHei';
+			cursor: pointer;
+		}
+		.m_title{
+			font-weight: 700;
+			margin: 5px;
+			font-size: 20px;
+		}
+		.m_content{
+			color:#666;
+			margin-bottom: 15px;
+		}
+		.main:hover img{
+			-webkit-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+			-o-transform: scale(1.1);
+			transform: scale(1.1);
+		}
+		.m_img{
+			position: relative;
+			padding: 30px;
+		}
+		.m_img::before{
+			position: absolute;
+			content: '';
+			top: 10px;
+			left: 35px;
+			width: 160px;
+			height: 160px;
+			background: #eee;
+			border-radius: 50%;
+			z-index: -1;
+		}
+		img{
+			width: 120px;
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			-o-transform: scale(1);
+			transform: scale(1);
+			-webkit-transition: all 0.5s;
+			-o-transition: all 0.5s;
+			transition: all 0.5s;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="m_title">手机</div>
+		<div class="m_content">IphoneX</div>
+		<div class="m_img">
+			<img src="../img/phone.jpg" alt="新手机">
+		</div>
+	</div>
+</body>
+</html>
