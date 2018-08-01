@@ -351,7 +351,99 @@ html
 
 ### （6）心形和蛋边形
 
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo10.html)
+
+![心形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/hearts.png)
+
+```
+// 无圆心
+.hearts{
+    position: relative;
+    margin: 50px auto;
+    width: 50px;
+    height: 80px;
+    background: #f66;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.hearts:before{
+    position: absolute;
+    content: '';
+    top: 15px;
+    left: 15px;
+    width: 50px;
+    height: 80px;
+    background: #f66;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+// 有圆心
+.hearts1::before{
+    position: absolute;
+    left: 50px;
+    content: '';
+    margin: 50px auto;
+    width: 50px;
+    height: 80px;
+    background: #f66;
+    border-radius: 50px 40px 0 0;
+    -webkit-transform-origin:0 100% ;
+    -ms-transform-origin:0 100% ;
+    -o-transform-origin:0 100% ;
+    transform-origin:0 100% ;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}	
+.hearts1::after{
+    position: absolute;
+    content: '';
+    margin: 50px auto;
+    width: 50px;
+    height: 80px;
+    background: #f66;
+    border-radius: 50px 40px 0 0;
+    -webkit-transform-origin:100% 100% ;
+    -ms-transform-origin:100% 100% ;
+    -o-transform-origin:100% 100% ;
+    transform-origin:100% 100% ;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+```
+
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo10.html)
+
+![蛋形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/ogival.png)
+
+```
+.ogival{
+    margin: 100px auto;
+    width: 60px;
+    height: 100px;
+    background: #fa3;
+    /*(x / y)*/
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+```
+
+
+
 ### （7）太极阴阳图
+
+
 
 ## CSS3 色彩
 
