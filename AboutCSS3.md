@@ -19,7 +19,7 @@
 
 ## CSS3 介绍
 
-[开始实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo01.html)
+[开始实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS介绍/css介绍.html)
 
 ### 新特征简介
 
@@ -43,7 +43,7 @@
 
 #### （1）动态伪类选择器
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo02.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS介绍/动态伪类选择器.html)
 
 :link 设置a对象在未被访问前的样式表属性 
 
@@ -64,7 +64,7 @@
 
 #### （2）结构伪类选择器
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo03.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS介绍/结构伪类选择器.html)
 
 :first-child 选择某个元素第一个子元素
 
@@ -90,7 +90,7 @@
 
 ### 伪元素
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo04.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS介绍/伪元素.html)
 
 CSS 伪元素用于向某些选择设置特殊效果
 
@@ -111,7 +111,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 
 左上角开始，顺时针
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo05.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/border-radius.html)
 
 ![半圆](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/circle.png)
 
@@ -134,7 +134,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 
 #### 三角形+对话框
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo06.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/三角形.html)
 
 ![三角形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/triangle.png)
 
@@ -150,7 +150,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 }
 
 ```
-
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/三角形对话框.html)
 ![对话框](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/triangle-dialog.png)
 
 ```
@@ -186,7 +186,7 @@ html
 
 ### （3）菱形和平行四边形
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo08.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/平行四边形与菱形.html)
 
 ![菱形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/diamond.png)
 
@@ -202,8 +202,6 @@ html
     transform: rotate(-45deg);
 }
 ```
-
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo08.html)
 
 ![平行四边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/parallel.png)
 
@@ -225,9 +223,9 @@ html
 
 ### （4）五角星和六角星
 
-实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo09.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/星形.html)
 
-![平行四边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/mogen-david.png)
+![五角星](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/star.png)
 
 ```
 
@@ -284,9 +282,36 @@ html
 
 
 
+![六角星](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/mogen-david.png)
+
+```
+		#mogen-david{
+			position: relative;
+			width: 0;
+			height: 0;
+			border-bottom: 100px solid #f66;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			margin: 100px auto;
+		}	
+		#mogen-david::before{
+			position: absolute;
+			content: '';
+			top: 30px;
+			left: -50px;
+			width: 0;
+			height: 0;
+			border-top: 100px solid #f66;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+		}
+```
+
+
+
 ### （5）五边形和六边形
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo10.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/五边形与六边形.html)
 
 ![五边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/pentagon.png)
 
@@ -312,8 +337,6 @@ html
     border-right: 45px solid transparent;
 }
 ```
-
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo10.html)
 
 ![六边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/hexagon.png)
 
@@ -351,7 +374,7 @@ html
 
 ### （6）心形和蛋边形
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo10.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/心形与蛋形.html)
 
 ![心形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/hearts.png)
 
@@ -424,8 +447,6 @@ html
 }
 ```
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo10.html)
-
 ![蛋形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/ogival.png)
 
 ```
@@ -443,7 +464,7 @@ html
 
 ### （7）太极阴阳图
 
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo11.html)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS变形/太极阴阳图.html)
 
 ![太极阴阳图](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/taiji.png)
 
