@@ -443,6 +443,46 @@ html
 
 ### （7）太极阴阳图
 
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/Demo11.html)
+
+![太极阴阳图](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/taiji.png)
+
+```
+body{
+    background: rgb(193, 193, 193);
+}
+.taiji{
+    position: relative;
+    margin: 200px auto;
+    width: 200px;
+    height: 400px;
+    background: #fff;
+    border-radius: 200px;
+    border-left: 200px solid #000;
+}
+.taiji:before{
+    position: absolute;
+    left: -100px;
+    content: '';
+    width: 100px;
+    height: 100px;
+    border:50px solid #fff;
+    background: #000;
+    border-radius: 200px;
+}	
+.taiji:after{
+    position: absolute;
+    left: -100px;
+    top: 200px;
+    content: '';
+    width: 100px;
+    height: 100px;
+    border:50px solid #000;
+    background: #fff;
+    border-radius: 200px;
+}	
+```
+
 
 
 ## CSS3 色彩
