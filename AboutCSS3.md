@@ -1019,13 +1019,88 @@ animation-direction: alternate;
 
 ------
 
-## CSS3 文字排版
+## CSS3 文字排版 
 
 ### 制作发光字，立体字，苹果字体
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3文字排版/制作发光字立体字苹果字体.html)
 
+语法：text-shadow: h-shadow v-shadow blur color;
+
+![制作发光字立体字苹果字体](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/制作发光字立体字苹果字体.png)
+
+```
+body{
+    background: #666;
+    text-align: center;
+    font: 700 55px 'Microsoft YaHei'
+}
+.font1{
+    color:#fff;
+    text-shadow: 2px 2px 3px #000;
+}
+.font2{
+    color:#fff;
+    text-shadow: 0 0 20px red;
+}
+.font3{
+    text-shadow: 0 1px 1px #fff;
+}		
+.font4{
+    color:#fff;
+    text-shadow: 1px 1px 0px rgba(197,223,248,0.8),
+                 2px 2px 0px rgba(197,223,248,0.8),
+                 3px 3px 0px rgba(197,223,248,0.8),
+                 4px 4px 0px rgba(197,223,248,0.8),
+                 5px 5px 0px rgba(197,223,248,0.8),
+                 6px 6px 0px rgba(197,223,248,0.8);
+
+}
+```
+
+
+
 ### 用text-overflow解决文字排版问题
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3文字排版/用text-overflow解决文字排版问题.html)
 
+语法：text-overflow:clip|ellipsis|string;
+
+![用text-overflow解决文字排版问题](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/用text-overflow解决文字排版问题.png)
+
+```
+.demo{
+    margin: 30px auto;
+    width: 100px;
+    padding: 10px;
+    border:1px solid #ccc;
+    height: 50px;
+    /*clip 需要overflow:hidden支持，但是不加clip只要overflow:hidden却也可以实现效果*/
+    text-overflow:clip; 
+    overflow: hidden;
+
+}		
+.demo1{
+    margin: 30px auto;
+    width: 100px;
+    padding: 10px;
+    border:1px solid #ccc;
+    height: 50px;
+    
+    -webkit-text-overflow:ellipsis; 
+    text-overflow:ellipsis;
+    overflow: hidden;
+    /*关键 出现省略号 不换行*/
+    white-space: nowrap;
+}
+```
+
+
+
 ### 新的字体单位rem
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3文字排版/新的字体单位rem.html)
+[px/em/rem换算地址](http://pxtoem.com/)
+
+| 元素 | 特点                                                      | 描述                                                         |
+| ---- | --------------------------------------------------------- | ------------------------------------------------------------ |
+| px   | 它是一个绝对尺寸单位，是不能变动的                        | 像素单位 。 是显示屏上显示的每一个小点，为显示的最小单位。   |
+| em   | 1.em的值并不是固定不变的。2.em会继承父级元素字体的大小rem | 描述相对于应用在当前元素的字体尺寸，所以它也是相对长度单位，可以变动。一般浏览器字体大小默认为16px，则2em == 32px |
+| rem  | 相对于应用\<html>根元素的字体尺寸 。                      | 1. 它是描述相对于当前根元素字体尺寸，除了描述对象与em不同其余都和em一样 。                                                                                                          2.如果要对网页根元素字体大小进行修改，需要在\<html>标签中加上style="font-size:value"属性 |
+

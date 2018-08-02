@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用text-overflow解决文字排版问题</title>
+	<style>
+		.demo{
+			margin: 30px auto;
+			width: 100px;
+			padding: 10px;
+			border:1px solid #ccc;
+			height: 50px;
+			/*clip 需要overflow:hidden支持，但是不加clip只要overflow:hidden却也可以实现效果*/
+			text-overflow:clip; 
+			overflow: hidden;
+
+		}		
+		.demo1{
+			margin: 30px auto;
+			width: 100px;
+			padding: 10px;
+			border:1px solid #ccc;
+			height: 50px;
+			text-overflow:ellipsis; 
+			overflow: hidden;
+			/*关键 出现省略号 不换行*/
+			white-space: nowrap;
+		}
+	</style>
+</head>
+<body>
+	<div class="demo">
+		用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题
+	</div>
+	<div class="demo1">
+		用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题用text-overflow解决文字排版问题
+	</div>
+</body>
+</html>
