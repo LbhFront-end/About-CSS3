@@ -135,7 +135,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 
 
 
-```
+```css
 .demo5{
     width: 100px;
     height: 200px;
@@ -156,7 +156,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 
 ![三角形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/triangle.png)
 
-```
+```css
 .triangle{
     border-top:100px solid #ccc;
     border-bottom:100px solid transparent;
@@ -171,7 +171,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/三角形对话框.html)
 ![对话框](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/triangle-dialog.png)
 
-```
+```html
 <style>
 .triangle-dialog{
     background: #6a6;
@@ -208,7 +208,7 @@ html
 
 ![菱形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/diamond.png)
 
-```
+```css
 .diamond {
     width: 200px;
     height: 200px;
@@ -223,7 +223,7 @@ html
 
 ![平行四边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/parallel.png)
 
-```
+```css
 .parallel{
     width: 200px;
     height: 200px;
@@ -245,7 +245,7 @@ html
 
 ![五角星](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/star.png)
 
-```
+```html
 
 <style>
     #star{
@@ -302,7 +302,7 @@ html
 
 ![六角星](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/mogen-david.png)
 
-```
+```css
 		#mogen-david{
 			position: relative;
 			width: 0;
@@ -333,7 +333,7 @@ html
 
 ![五边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/pentagon.png)
 
-```
+```css
 .pentagon{
     position: relative;
     margin: 100px auto;
@@ -358,7 +358,7 @@ html
 
 ![六边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/hexagon.png)
 
-```
+```css
 .hexagon{
     position: relative;
     margin: 100px auto;
@@ -396,7 +396,7 @@ html
 
 ![心形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/hearts.png)
 
-```
+```css
 // 无圆心
 .hearts{
     position: relative;
@@ -467,7 +467,7 @@ html
 
 ![蛋形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/ogival.png)
 
-```
+```css
 .ogival{
     margin: 100px auto;
     width: 60px;
@@ -486,7 +486,7 @@ html
 
 ![太极阴阳图](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/taiji.png)
 
-```
+```css
 body{
     background: rgb(193, 193, 193);
 }
@@ -532,7 +532,7 @@ body{
 
 opacity : value
 
-```
+```css
 .show{
     margin: 50px auto;
     width: 200px;
@@ -571,7 +571,7 @@ opacity : value
 ### 颜色模式2
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/颜色模式2.html)
 
-```
+```css
 #main{
     margin: 100px auto;
     width: 800px;
@@ -624,7 +624,7 @@ opacity : value
 | \<percentage> | 用百分比指定起止色位置                                       |
 | \<color>      | 指定颜色                                                     |
 
-```
+```css
 .demo{
     margin: 50px auto;
     width: 260px;
@@ -649,7 +649,7 @@ opacity : value
 
 语法：radial-gradient( [\<bg-position> || \<angle>, ] ? [ \<shape> || \<size> ,] ? \<color-stop> , \<color-stop>[, \<color-stop>]* )
 
-```
+```scss
 /*circle 圆*/
 .circle{
     background-image: radial-gradient(circle at right,orange,green);
@@ -679,7 +679,7 @@ opacity : value
 ### 重复性渐变
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/重复性渐变.html)
 
-```
+```css
 .linear{
     width: 300px;	
     height: 300px;	
@@ -729,7 +729,7 @@ opacity : value
 | transition-timing-function | 过渡函数（默认值为ease函数） |
 | transition-delay           | 过渡延迟时间（默认值为0s）   |
 
-```
+```css
 .demo{
     width: 100px;
     height: 100px;
@@ -783,7 +783,7 @@ opacity : value
 ### 仿天猫类别过渡效果制作
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3过渡/仿天猫类别过渡效果制作.html)
 
-```
+```css
 .main{
     width: 200px;
     height: 200px;
@@ -824,7 +824,7 @@ opacity : value
 ### 仿天猫专题过渡效果实例
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3过渡/仿天猫专题过渡效果实例.html)
 
-```
+```css
 .main{
     margin: 10px auto;
     width: 230px;
@@ -882,7 +882,7 @@ img{
 ### 动画中的@keyframes关键帧讲解
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/动画中的@keyframes关键帧讲解.html)
 
-```
+```css
 .rect{
     width: 100px;
     height: 100px;
@@ -902,7 +902,7 @@ img{
 ### 动画animation符合属性讲解
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/动画animation符合属性讲解.html)
 
-```
+```css
 /*指定动画名字*/
 -webkit-animation-name: myMove;
 -o-animation-name: myMove;
@@ -934,7 +934,7 @@ animation-direction: alternate;
 #### 动画综合实例制作-loading加载动画制作
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/动画综合实例制作-loading加载动画制作.html)
 
-```
+```css
 .spinner{
     margin: 100px auto;
     width: 60px;
@@ -986,7 +986,7 @@ animation-direction: alternate;
 #### Loading动画效果实例2
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/Loading动画效果实例2.html)
 
-```
+```css
 .spinner{
     width: 60px;
     height: 60px;
@@ -1028,7 +1028,7 @@ animation-direction: alternate;
 
 ![制作发光字立体字苹果字体](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/制作发光字立体字苹果字体.png)
 
-```
+```css
 body{
     background: #666;
     text-align: center;
@@ -1066,7 +1066,7 @@ body{
 
 ![用text-overflow解决文字排版问题](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/用text-overflow解决文字排版问题.png)
 
-```
+```css
 .demo{
     margin: 30px auto;
     width: 100px;
