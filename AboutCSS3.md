@@ -984,7 +984,8 @@ animation-direction: alternate;
 
 
 #### Loading动画效果实例2
-[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/Loading动画效果实例2.html)
+[源码](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/Loading动画效果实例2.html)
+[演示](https://codepen.io/lbhfront-end/pen/wEqNKX)
 
 ```css
 .spinner{
