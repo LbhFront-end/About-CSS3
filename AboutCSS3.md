@@ -1,3 +1,10 @@
+<script type="text/javascript">
+var aTagArr = [].slice.apply(document.getElementsByTagName("a"));aTagArr.forEach(function (e, i) {
+  e.href.indexOf("_blank") > -1 ? e.target = "_blank" : null;
+});
+</script>
+
+
 1. [CSS3介绍](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-介绍)  
    (1)  [新特征简介](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#新特征简介)  
    (2)  [查看浏览器份额](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#查看浏览器份额)  
@@ -1104,10 +1111,4 @@ body{
 | px   | 它是一个绝对尺寸单位，是不能变动的                        | 像素单位 。 是显示屏上显示的每一个小点，为显示的最小单位。   |
 | em   | 1.em的值并不是固定不变的。2.em会继承父级元素字体的大小rem | 描述相对于应用在当前元素的字体尺寸，所以它也是相对长度单位，可以变动。一般浏览器字体大小默认为16px，则2em == 32px |
 | rem  | 相对于应用\<html>根元素的字体尺寸 。                      | 1. 它是描述相对于当前根元素字体尺寸，除了描述对象与em不同其余都和em一样 。                                                                                                          2.如果要对网页根元素字体大小进行修改，需要在\<html>标签中加上style="font-size:value"属性 |
-
-<script type="text/javascript">
-var aTagArr = [].slice.apply(document.getElementsByTagName("a"));aTagArr.forEach(function (e, i) {
-  e.href.indexOf("_blank") > -1 ? e.target = "_blank" : null;
-});
-</script>
 
