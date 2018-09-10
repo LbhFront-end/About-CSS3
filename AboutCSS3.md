@@ -1,11 +1,3 @@
-<script type="text/javascript">
-    alert(1);
-var aTagArr = [].slice.apply(document.getElementsByTagName("a"));aTagArr.forEach(function (e, i) {
-  e.href.indexOf("_blank") > -1 ? e.target = "_blank" : null;
-});
-</script>
-
-
 1. [CSS3介绍](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#css3-介绍)  
    (1)  [新特征简介](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#新特征简介)  
    (2)  [查看浏览器份额](https://github.com/LbhFront-end/About-CSS3/blob/master/AboutCSS3.md#查看浏览器份额)  
@@ -138,7 +130,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 左上角开始，顺时针
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/border-radius.html)
-[演示](https://codepen.io/lbhfront-end/pen/KxZezZ?_blank)
+<a href="https://codepen.io/lbhfront-end/pen/KxZezZ" target="_blank">演示</a>
 
 ![半圆](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/circle.png)
 
