@@ -210,9 +210,10 @@ html
 ### （3）菱形和平行四边形
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/平行四边形与菱形.html)
+[演示](https://codepen.io/lbhfront-end/pen/bxaKeR)
 
 ![菱形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/diamond.png)
-[菱形](https://codepen.io/lbhfront-end/pen/bxaKeR)
+
 
 ```css
 .diamond {
@@ -227,8 +228,9 @@ html
 }
 ```
 
+[演示](https://codepen.io/lbhfront-end/pen/rZpKLq)
 ![平行四边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/parallel.png)
-[平行四边形](https://codepen.io/lbhfront-end/pen/rZpKLq)
+
 
 ```css
 .parallel{
@@ -249,9 +251,10 @@ html
 ### （4）五角星和六角星
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/星形.html)
+[演示](https://codepen.io/lbhfront-end/pen/mGpKrP)
 
 ![五角星](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/star.png)
-[星形](https://codepen.io/lbhfront-end/pen/mGpKrP)
+
 
 ```html
 
@@ -338,9 +341,10 @@ html
 ### （5）五边形和六边形
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/五边形与六边形.html)
+[演示](https://codepen.io/lbhfront-end/pen/aaEjbv)
 
 ![五边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/pentagon.png)
-[演示](https://codepen.io/lbhfront-end/pen/aaEjbv)
+
 
 ```css
 .pentagon{
@@ -493,7 +497,7 @@ html
 ### （7）太极阴阳图
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/太极阴阳图.html)
-[太极阴阳图](https://codepen.io/lbhfront-end/pen/vzpaKe)
+[演示](https://codepen.io/lbhfront-end/pen/vzpaKe)
 
 ![太极阴阳图](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/taiji.png)
 
