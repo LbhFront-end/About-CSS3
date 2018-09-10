@@ -130,8 +130,8 @@ CSS 伪元素用于向某些选择设置特殊效果
 左上角开始，顺时针
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/border-radius.html)
-<a href="https://codepen.io/lbhfront-end/pen/KxZezZ" target="_blank">演示</a>
-<https://codepen.io/lbhfront-end/pen/KxZezZ>{:target="_blank"}
+[演示](https://codepen.io/lbhfront-end/pen/KxZezZ)
+
 
 ![半圆](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/circle.png)
 
@@ -155,6 +155,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 #### 三角形+对话框
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/三角形.html)
+[演示](https://codepen.io/lbhfront-end/pen/JaMZXq)
 
 ![三角形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/triangle.png)
 
@@ -171,6 +172,8 @@ CSS 伪元素用于向某些选择设置特殊效果
 
 ```
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/三角形对话框.html)
+[演示](https://codepen.io/lbhfront-end/pen/mGpKEP)
+
 ![对话框](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/triangle-dialog.png)
 
 ```html
@@ -209,6 +212,7 @@ html
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/平行四边形与菱形.html)
 
 ![菱形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/diamond.png)
+[菱形](https://codepen.io/lbhfront-end/pen/bxaKeR)
 
 ```css
 .diamond {
@@ -224,6 +228,7 @@ html
 ```
 
 ![平行四边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/parallel.png)
+[平行四边形](https://codepen.io/lbhfront-end/pen/rZpKLq)
 
 ```css
 .parallel{
@@ -246,6 +251,7 @@ html
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/星形.html)
 
 ![五角星](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/star.png)
+[星形](https://codepen.io/lbhfront-end/pen/mGpKrP)
 
 ```html
 
@@ -334,6 +340,7 @@ html
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/五边形与六边形.html)
 
 ![五边形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/pentagon.png)
+[演示](https://codepen.io/lbhfront-end/pen/aaEjbv)
 
 ```css
 .pentagon{
@@ -395,6 +402,7 @@ html
 ### （6）心形和蛋边形
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/心形与蛋形.html)
+[演示](https://codepen.io/lbhfront-end/pen/BOJPNx)
 
 ![心形](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/hearts.png)
 
@@ -485,6 +493,7 @@ html
 ### （7）太极阴阳图
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/太极阴阳图.html)
+[太极阴阳图](https://codepen.io/lbhfront-end/pen/vzpaKe)
 
 ![太极阴阳图](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/taiji.png)
 
@@ -531,6 +540,7 @@ body{
 ### 透明背景图层
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/透明背景图层.html)
+[演示](https://codepen.io/lbhfront-end/pen/pOpZbm)
 
 opacity : value
 
@@ -572,6 +582,7 @@ opacity : value
 
 ### 颜色模式2
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/颜色模式2.html)
+[演示](https://codepen.io/lbhfront-end/pen/JaMBWb)
 
 ```css
 #main{
@@ -615,6 +626,7 @@ opacity : value
 
 ### 线性渐变
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/线性渐变.html)
+[演示](https://codepen.io/lbhfront-end/pen/xapJrR)
 
 语法：linear-gradient( [ \<point> || \<angle> ,] ? \<stop> , \<stop> [,\<stop>] * )
 
@@ -648,6 +660,8 @@ opacity : value
 
 ### 径向渐变
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/径向渐变.html)
+[演示](https://codepen.io/lbhfront-end/pen/VGyBzM)
+
 
 语法：radial-gradient( [\<bg-position> || \<angle>, ] ? [ \<shape> || \<size> ,] ? \<color-stop> , \<color-stop>[, \<color-stop>]* )
 
@@ -680,6 +694,7 @@ opacity : value
 
 ### 重复性渐变
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/重复性渐变.html)
+[演示](https://codepen.io/lbhfront-end/pen/YOYjrE)
 
 ```css
 .linear{
@@ -703,6 +718,7 @@ opacity : value
 
 ### 盒子阴影效果
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3色彩/盒子阴影效果.html)
+[演示](https://codepen.io/lbhfront-end/pen/ZMvjaG)
 
 语法：box-shadow : h-shadow v-shadow blur spread color inset;
 
@@ -721,6 +737,8 @@ opacity : value
 
 ### 制作缓慢变长的方形
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3过渡/制作缓慢变长的方形.html)
+[演示](https://codepen.io/lbhfront-end/pen/GXyBOG)
+
 
 简写语法：transition:  property duration delay timing-function;
 
@@ -784,6 +802,7 @@ opacity : value
 
 ### 仿天猫类别过渡效果制作
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3过渡/仿天猫类别过渡效果制作.html)
+[演示](https://codepen.io/lbhfront-end/pen/oPpMpe)
 
 ```css
 .main{
@@ -825,6 +844,7 @@ opacity : value
 
 ### 仿天猫专题过渡效果实例
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3过渡/仿天猫专题过渡效果实例.html)
+[演示](https://codepen.io/lbhfront-end/pen/ZMvjrG)
 
 ```css
 .main{
@@ -883,6 +903,7 @@ img{
 
 ### 动画中的@keyframes关键帧讲解
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/动画中的@keyframes关键帧讲解.html)
+[演示](https://codepen.io/lbhfront-end/pen/vzpadd)
 
 ```css
 .rect{
@@ -935,6 +956,7 @@ animation-direction: alternate;
 
 #### 动画综合实例制作-loading加载动画制作
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/动画综合实例制作-loading加载动画制作.html)
+[演示](https://codepen.io/lbhfront-end/pen/MqrBVY)
 
 ```css
 .spinner{
@@ -987,6 +1009,7 @@ animation-direction: alternate;
 
 #### Loading动画效果实例2
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/Loading动画效果实例2.html)
+[演示](https://codepen.io/lbhfront-end/pen/wEqNKX)
 
 ```css
 .spinner{
@@ -1025,6 +1048,7 @@ animation-direction: alternate;
 
 ### 制作发光字，立体字，苹果字体
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3文字排版/制作发光字立体字苹果字体.html)
+[演示](https://codepen.io/lbhfront-end/pen/jvYpzg)
 
 语法：text-shadow: h-shadow v-shadow blur color;
 
@@ -1063,6 +1087,7 @@ body{
 
 ### 用text-overflow解决文字排版问题
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3文字排版/用text-overflow解决文字排版问题.html)
+[演示](https://codepen.io/lbhfront-end/pen/MqrBGw)
 
 语法：text-overflow:clip|ellipsis|string;
 
@@ -1099,6 +1124,7 @@ body{
 
 ### 新的字体单位rem
 [px/em/rem换算地址](http://pxtoem.com/)
+[演示](https://codepen.io/lbhfront-end/pen/oPpMdG)
 
 | 元素 | 特点                                                      | 描述                                                         |
 | ---- | --------------------------------------------------------- | ------------------------------------------------------------ |
