@@ -130,6 +130,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 左上角开始，顺时针
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/border-radius.html)
+[演示](https://codepen.io/lbhfront-end/pen/KxZezZ?_blank)
 
 ![半圆](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/circle.png)
 
@@ -984,8 +985,7 @@ animation-direction: alternate;
 
 
 #### Loading动画效果实例2
-[源码](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/Loading动画效果实例2.html)
-[演示](https://codepen.io/lbhfront-end/pen/wEqNKX)
+[实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3动画/Loading动画效果实例2.html)
 
 ```css
 .spinner{
@@ -1104,4 +1104,10 @@ body{
 | px   | 它是一个绝对尺寸单位，是不能变动的                        | 像素单位 。 是显示屏上显示的每一个小点，为显示的最小单位。   |
 | em   | 1.em的值并不是固定不变的。2.em会继承父级元素字体的大小rem | 描述相对于应用在当前元素的字体尺寸，所以它也是相对长度单位，可以变动。一般浏览器字体大小默认为16px，则2em == 32px |
 | rem  | 相对于应用\<html>根元素的字体尺寸 。                      | 1. 它是描述相对于当前根元素字体尺寸，除了描述对象与em不同其余都和em一样 。                                                                                                          2.如果要对网页根元素字体大小进行修改，需要在\<html>标签中加上style="font-size:value"属性 |
+
+<script type="text/javascript">
+var aTagArr = [].slice.apply(document.getElementsByTagName("a"));aTagArr.forEach(function (e, i) {
+  e.href.indexOf("_blank") > -1 ? e.target = "_blank" : null;
+});
+</script>
 
