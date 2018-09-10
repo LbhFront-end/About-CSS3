@@ -131,6 +131,7 @@ CSS 伪元素用于向某些选择设置特殊效果
 
 [实例](https://github.com/LbhFront-end/About-CSS3/blob/master/code/CSS3变形/border-radius.html)
 <a href="https://codepen.io/lbhfront-end/pen/KxZezZ" target="_blank">演示</a>
+<a href="http://write.blog.csdn.net/postlist" target="_blank">http://write.blog.csdn.net/postlist</a>
 
 ![半圆](https://raw.githubusercontent.com/LbhFront-end/About-CSS3/master/code/img/circle.png)
 
